@@ -8,10 +8,12 @@ interface CityCardProps {
   description: string;
 }
 
+// https://lightswind.com/components/card?component=seasonal-hover-cards
+// https://lightswind.com/components/progress?component=3d-hover-gallery
 const CityCard = ({ imageSrc, cityName, description }: CityCardProps) => (
   <motion.li
     tabIndex={0}
-    className="relative z-0 h-[500px] shadow-md overflow-hidden flex-none rounded-lg hover:z-20"
+    className="group relative z-0 h-[500px] shadow-md overflow-hidden flex-none rounded-lg hover:z-20"
     initial={{ width: 100 }}
     whileHover={{ width: 500, scale: 1.1 }}
     transition={{ duration: 0.3, ease: "easeOut" }}
@@ -21,7 +23,7 @@ const CityCard = ({ imageSrc, cityName, description }: CityCardProps) => (
       quality={100}
       alt={`${cityName} city view`}
       fill
-      className="object-cover"
+      className="object-cover filter grayscale group-hover:grayscale-0 transition-all duration-300 ease-out"
     />
     <motion.div 
       initial={{ opacity: 0 }}
