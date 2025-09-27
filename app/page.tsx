@@ -1,5 +1,6 @@
 import GalleryHover, { City } from "@/components/gallery-hover";
 import GalleryStack from "@/components/gallery-stack";
+import ProgressSteps from "@/components/progress-steps";
 
 export default function Page() {
   const cities: City[] = [
@@ -50,6 +51,10 @@ export default function Page() {
           width={500}
           height={500}
         />
+      </section>
+      <section>
+        <h2 className="text-xl font-semibold mb-4">Progress Steps</h2>
+        <ProgressSteps />
       </section>
     </main>
   );
