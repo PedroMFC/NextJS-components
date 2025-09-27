@@ -1,5 +1,6 @@
-## Next.js App Router Course - Starter
+## Next.js Components
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+Custom components to reuse un Next.js
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+* Gallery Hover
+* Gallery Stack
