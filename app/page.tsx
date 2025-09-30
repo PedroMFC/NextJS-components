@@ -1,9 +1,9 @@
-import GSAPAnimationExample from "@/components/gsap-animations-example";
+import GSAPSplitHeader from "@/components/split-header-gsap";
 
 export default function Page() {
   return (
     <>
-      <GSAPAnimationExample />
+      <GSAPSplitHeader src="/assets/others/garage.png" />
     </>
   );
 }

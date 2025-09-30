@@ -1,5 +1,5 @@
 import { City } from "@/components/gallery-hover";
-import Parallax from "@/components/parallax";
+import GSAPParallax from "@/components/parallax-gsap";
 
 export default function Page() {
   const cities: City[] = [
@@ -36,7 +36,7 @@ export default function Page() {
     <main className="space-y-12 p-6">
       <section>
         <h2 className="text-xl font-semibold mb-4">Parallax</h2>
-        <Parallax cities={cities} />
+        <GSAPParallax cities={cities}/>
       </section>
     </main>
   );
