@@ -1,9 +1,9 @@
-import GSAPSplitHeader from "@/components/split-header-gsap";
+import GSAPScrollyImages from "@/components/scrolly-images-gsap";
 
 export default function Page() {
   return (
     <>
-      <GSAPSplitHeader src="/assets/others/garage.png" />
+      <GSAPScrollyImages src="/assets/others/garage.png" />
     </>
   );
 }

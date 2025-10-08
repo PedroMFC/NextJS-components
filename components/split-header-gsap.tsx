@@ -6,9 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollSmoother } from 'gsap/ScrollSmoother';
 import Image from 'next/image';
 
-if (typeof window !== 'undefined') {
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-}
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 export default function GSAPSplitHeader({ src }: { src: string }) {
   const wrapperRef = useRef<HTMLDivElement>(null);
@@ -70,19 +68,19 @@ export default function GSAPSplitHeader({ src }: { src: string }) {
             {[...Array(6)].map((_, index) => (
               <div
                 key={index}
-                ref={(el) => {imageContRefs.current[index]= el}}
+                ref={(el) => { imageContRefs.current[index] = el }}
                 className="image-cont flex-1 overflow-hidden relative"
               >
                 <div className="imagen-div h-full w-[700%] absolute" style={{ transform: `translateX(-${index * (100 / 7)}%)` }}>
                   <Image
                     fill
-                    ref={(el) => {imageRefs.current[index] = el}}
+                    ref={(el) => { imageRefs.current[index] = el }}
                     src={src}
                     alt="Split header"
                     className="img object-cover"
                   />
                   <div
-                    ref={(el) => {swipeRefs.current[index] = el}}
+                    ref={(el) => { swipeRefs.current[index] = el }}
                     className="anim-swipe h-full w-full bg-[#111111] absolute"
                   />
                 </div>
