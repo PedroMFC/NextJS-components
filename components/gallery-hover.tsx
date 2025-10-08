@@ -29,7 +29,7 @@ const CityCard = ({ imageSrc, cityName, description }: CityCardProps) => (
       initial={{ opacity: 0 }}
       whileHover={{ opacity: 1, transition:{ delay: 0.2, duration: 0.2}} }
       transition={{ duration: 0.1, ease: "easeOut" }}
-      className="absolute inset-0 flex items-end justify-center pb-5 z-10 bg-gradient-to-t from-black/90 via-black/40 to-transparent">
+      className="absolute inset-0 flex items-end justify-center pb-5 z-10 bg-linear-to-t from-black/90 via-black/40 to-transparent">
       <div className="text-center text-white p-6 rounded-lg max-w-md">
         <h2 className="text-3xl font-bold mb-2">{cityName}</h2>
         <p className="text-sm">{description}</p>

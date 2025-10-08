@@ -74,9 +74,9 @@ export default function GSAPScrollTriggerExample() {
 
   return (
     <div ref={containerRef} className="flex flex-col items-center gap-[700px] p-6">
-      <div className="h-24 w-24 rounded-lg bg-green-400 shadow green" />
-      <div className="h-24 w-24 rounded-lg bg-blue-400 shadow blue" />
-      <div ref={purpleRef} className="h-24 w-24 rounded-lg bg-purple-400 shadow" />
+      <div className="h-24 w-24 rounded-lg bg-green-400 shadow-sm green" />
+      <div className="h-24 w-24 rounded-lg bg-blue-400 shadow-sm blue" />
+      <div ref={purpleRef} className="h-24 w-24 rounded-lg bg-purple-400 shadow-sm" />
       <div className="h-[1000px]"></div>
     </div>
   );

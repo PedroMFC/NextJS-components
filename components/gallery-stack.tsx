@@ -84,13 +84,13 @@ export default function GalleryStack({
 
             {/* Bottom gradient + text */}
             {(item.title || item.description) && (
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end justify-start">
+              <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent flex items-end justify-start">
                 <div className="p-4 text-white">
                   {item.title && (
-                    <h3 className="text-xl font-semibold drop-shadow-sm">{item.title}</h3>
+                    <h3 className="text-xl font-semibold drop-shadow-xs">{item.title}</h3>
                   )}
                   {item.description && (
-                    <p className="text-sm text-white/90 max-w-md drop-shadow-sm">
+                    <p className="text-sm text-white/90 max-w-md drop-shadow-xs">
                       {item.description}
                     </p>
                   )}

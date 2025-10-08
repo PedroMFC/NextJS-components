@@ -62,9 +62,9 @@ export default function GSAPScrollSmootherExample() {
         </button>
         <div className="h-[1000px]"></div>
         <div className="flex flex-row items-center gap-10">
-          <div className="h-24 w-24 rounded-lg bg-green-400 shadow green box" />
-          <div className="h-24 w-24 rounded-lg bg-blue-400 shadow blue box"/>
-          <div ref={purpleRef} className="h-24 w-24 rounded-lg bg-purple-400 shadow box"/>
+          <div className="h-24 w-24 rounded-lg bg-green-400 shadow-sm green box" />
+          <div className="h-24 w-24 rounded-lg bg-blue-400 shadow-sm blue box"/>
+          <div ref={purpleRef} className="h-24 w-24 rounded-lg bg-purple-400 shadow-sm box"/>
         </div>
         <div className="h-[1000px]"></div>
       </div>

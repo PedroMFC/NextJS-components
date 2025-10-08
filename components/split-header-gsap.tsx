@@ -97,7 +97,7 @@ export default function GSAPSplitHeader({ src }: { src: string }) {
       <img
         src="https://img.icons8.com/glyph-neue/128/ffffff/circled-down-2.png"
         alt="scroll down"
-        className="fixed bottom-4 left-1/2 -translate-x-1/2 z-[999] w-8 h-8"
+        className="fixed bottom-4 left-1/2 -translate-x-1/2 z-999 w-8 h-8"
       />
     </div>
   );

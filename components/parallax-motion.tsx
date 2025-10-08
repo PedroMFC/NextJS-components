@@ -22,7 +22,7 @@ function MyImage({ city }: { city: City }) {
 
     return (
         <div className="flex flex-col gap-2 img-container">
-            <div key={city.id} className="relative w-[500px] h-[600px] overflow-hidden rounded-lg shadow" ref={ref}>
+            <div key={city.id} className="relative w-[500px] h-[600px] overflow-hidden rounded-lg shadow-sm" ref={ref}>
                 <Image
                     src={city.imageSrc}
                     alt={city.name}
