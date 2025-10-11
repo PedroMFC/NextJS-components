@@ -1,9 +1,9 @@
-import GSAPScrollyImages from "@/components/scrolly-images-gsap";
+import GSAPSVGGradient from "@/components/svg-gradient";
 
 export default function Page() {
   return (
     <>
-      <GSAPScrollyImages src="/assets/others/garage.png" />
+      <GSAPSVGGradient />
     </>
   );
 }
