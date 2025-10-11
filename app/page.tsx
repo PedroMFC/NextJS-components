@@ -1,9 +1,9 @@
-import GSAPSVGDashedLine from "@/components/svg-dashed-line";
+import GSAPInfographAnimation from "@/components/infograph-animation";
 
 export default function Page() {
   return (
     <>
-      <GSAPSVGDashedLine />
+      <GSAPInfographAnimation />
     </>
   );
 }
