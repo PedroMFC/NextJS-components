@@ -1,9 +1,9 @@
-import GSAPInfographAnimation from "@/components/infograph-animation";
+import SVGGradientScroll from "@/components/svg-gradient-scroll";
 
 export default function Page() {
   return (
     <>
-      <GSAPInfographAnimation />
+      <SVGGradientScroll />
     </>
   );
 }
