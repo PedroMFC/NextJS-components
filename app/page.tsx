@@ -1,9 +1,9 @@
-import GSAPSVGGradient from "@/components/svg-gradient";
+import GSAPSVGDashedLine from "@/components/svg-dashed-line";
 
 export default function Page() {
   return (
     <>
-      <GSAPSVGGradient />
+      <GSAPSVGDashedLine />
     </>
   );
 }
