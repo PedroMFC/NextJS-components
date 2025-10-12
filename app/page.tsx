@@ -1,9 +1,9 @@
-import GSAPTextEffects from "@/components/text-effects";
+import GSAPMapRange from "@/components/map-range";
 
 export default function Page() {
   return (
     <>
-      <GSAPTextEffects />
+      <GSAPMapRange />
     </>
   );
 }
