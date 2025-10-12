@@ -1,9 +1,9 @@
-import SVGGradientScroll from "@/components/svg-gradient-scroll";
+import GSAPTextEffects from "@/components/text-effects";
 
 export default function Page() {
   return (
     <>
-      <SVGGradientScroll />
+      <GSAPTextEffects />
     </>
   );
 }
